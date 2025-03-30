@@ -1,0 +1,35 @@
+{
+  "name": "capstone_testing",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "test:unit": "jest --testMatch '**/*.test.js'",
+    "test:integration": "jest --testMatch '**/*.integration.test.js'",
+    "lint": "eslint"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ChekYeaw/capstone_testing.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ChekYeaw/capstone_testing/issues"
+  },
+  "homepage": "https://github.com/ChekYeaw/capstone_testing#readme",
+  "devDependencies": {
+    "@eslint/js": "^9.21.0",
+    "aws-sdk-mock": "^6.2.1",
+    "eslint": "^9.21.0",
+    "globals": "^16.0.0",
+    "jest": "^29.7.0"
+  },
+  "dependencies": {
+    "@aws-sdk/client-ses": "^3.750.0",
+    "@aws-sdk/smithy-client": "^3.370.0",
+    "@aws-sdk/types": "^3.734.0"
+  }
+}

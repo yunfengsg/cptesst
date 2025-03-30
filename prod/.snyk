@@ -1,0 +1,10 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.25.1
+# ignores vulnerabilities until expiry date; change duration by modifying expiry date
+ignore:
+  SNYK-CC-AWS-415:
+    - '*':
+        reason: None Given
+        expires: 2025-04-25T14:49:47.187Z
+        created: 2025-03-26T14:49:47.189Z
+patch: {}
